@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+    font-family: 'Arial',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    width: 320px;
+    background: #f9dc5c;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    border: 4px solid #e5b91e;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.card-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.hp{
+    font-size: 10px;
+    margin-top: 13px;
+    margin-right: -110px;
+}
+
+.hp1{
+    color: black;
+    font-size: 25px;
+}
+
+.hp1 i{
+    color: black;
+    background: yellow;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 50%;
+    margin-left: 1px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.cardbody{
+    padding: 10px;
+    background: #eeeb92;
+    border-bottom: 4px solid white;
+    border-top: 4px solid white;
+}
+
+.attack{
+    margin: 10px;
+}
+
+.Attackrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.attackname{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Attackpower{
+    width: 40px;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.attackinfo{
+    font-size: 12px;
+    margin-top: 4px;
+    color: #333;
+}
+
+.energy-icon{
+    background: rgb(238, 238, 14);
+    color: black;
+    border-radius: 50%;
+    padding: 3px;
+    margin: 0 2px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 0 10px 8px;
+}
+

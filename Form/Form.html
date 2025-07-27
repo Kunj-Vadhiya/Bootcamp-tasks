@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <nav>
+        <a href="#" style="font-size: 20px;">Home</a> |
+        <a href="#" style="font-size: 20px">Contact</a>
+    </nav>
+    <br>
+
+    <form method="post" action="">
+
+        <label for="fullname">Full Name :</label>
+        <input type="text" name="fullname" id="fullname" placeholder="Enter your full name" required>
+        <br><br>
+
+        <label for="email">Email Id :</label>
+        <input type="email" name="email" id="email" placeholder="Enter your Email Id" required>
+        <br><br>
+
+        <label for="password">Password :</label>
+        <input type="password" name="password" id="password" placeholder="password" required>
+        <input type="checkbox" onclick="password.type = this.checked ? 'text' : 'password' ">
+        <br><br>
+
+        <label>Gender : </label>
+        <input type="radio" name="gender" value="Male" required>Male
+        <input type="radio" name="gender" value="Female" required>Female
+        <br><br>
+
+        <label for="age">Age :</label>
+        <input type="number" name="age" id="age" placeholder="Enter your age" min="1" max="100">
+        <br><br>
+
+        <label for="dob">Date of Birth :</label>
+        <input type="date" name="dob" id="dob" required>
+        <br><br>
+
+        <label for="country">Country :</label>
+        <select name="country" id="country" required>
+            <option value="">Select your country</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Russia">Russia</option>
+            <option value="China">China</option>
+            <option value="Japan">Japan</option>
+        </select>
+        <br><br>
+
+        <label for="file">Upload your File :</label>
+        <input type="file" name="terms" id="terms">
+        <br><br>
+
+        <input type="checkbox" name="terms" id="terms" value="agree" required>
+        <label for="terms">I agree to the terms and conditions.</label>
+        <br><br>
+
+        <input type="Submit" name="" id="" value="Submit">
+
+    </form>
+
+    <br>
+
+    <footer>
+        <p>&copf; Contact Form | All rights reserved.</p>
+    </footer>
+</body>
+</html>

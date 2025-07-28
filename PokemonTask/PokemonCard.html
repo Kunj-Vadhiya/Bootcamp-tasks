@@ -3,63 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokemon Card</title>
-    <link rel="stylesheet" href="cardCSS.css">
+    <title>Pokemon</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="cardCSS.css">
 </head>
 <body>
-    <div class="card">
-        <div class="card-head">
-            <span class="name">Zekrom</span>
-            <span class="hp">HP</span>
-            <span class="hp1">130 <i class="fa-solid fa-bolt energy-icon"></i></span>
-        </div>
-
-        <img src="https://wallpapers.com/images/featured/zekrom-pictures-6g18z203e23asyjd.jpg" alt="Zekrom">
-
-        <div class="cardbody">
-            <div class="attack">
-                <div class="Attackrow">
-                    <i class="fa-solid fa-star energy-icon"></i>
-                    <div class="attackname">Crushing Short</div>
-                    <span class="Attackpower">20</span>
-                </div>
-
-                <p class="attackinfo">
-                    Before doing damage, discard all Pokemon Tools from your opponent's Active Pokemon.
-                </p>
-
+    <div class="border">
+        <div class="card">
+            <div class="card-head">
+                <span class="basic">basic</span>
+                <span class="name">Zekrom</span>
+                <span class="hp">HP</span>
+                <span class="hpValue">130 <i class="fa-solid fa-bolt energy-icon"></i></span>
             </div>
 
-            <div class="attack">
-                <div class="Attackrow">
-                    <div class="attackicons">
-                        <i class="fa-solid fa-bolt energy-icon"></i>
-                        <i class="fa-solid fa-bolt energy-icon"></i>
-                        <i class="fa-solid fa-star energy-icon"></i>
+            <img class="img" src="https://wallpapers.com/images/featured/zekrom-pictures-6g18z203e23asyjd.jpg" alt="Zekrom">
+
+            <div class="cardbody">
+                <div class="attack">
+                    <div class="Attackrow1">
+                        <span><i class="fa-solid fa-star energy-icon1"></i></span>
+                        <div class="attackname1">Crushing Short</div>
+                        <span class="Attackpower1">20</span>
                     </div>
 
-                    <div class="attackname">Raging Thunder</div>
-                    <span class="Attackpower">130</span>
+                    <p class="attackinfo">
+                        Before doing damage, discard all Pokemon Tools from your opponent's Active Pokemon.
+                    </p>
 
                 </div>
 
-                <p class="attackinfo">
-                    This attack also does 40 damage to 1 of your Benched Pokemon.(Don't apply Weakness and Resistance for Benched Pokemon.)
-                </p>
+                <div class="attack">
+                    <div class="Attackrow2">
+                        <div class="attackicons">
+                            <i class="fa-solid fa-bolt energy-icon"></i>
+                            <i class="fa-solid fa-bolt energy-icon"></i>
+                            <i class="fa-solid fa-star energy-icon1"></i>
+                        </div>
 
+                        <div class="attackname2">Raging Thunder</div>
+                        <div class="Attackpower2">130</div>
+                    </div>
+
+                    <p class="attackinfo">
+                        This attack also does 40 damage to 1 of your Benched Pokemon.(Don't apply Weakness and Resistance for Benched Pokemon.)
+                    </p>
+                </div>
             </div>
+
+            <hr class="separator" style="border: none;border-top: 2px solid #c0c0c0;width: 100%;margin: 10px auto">
+
+            <div class="footer">
+                <span>Weakness: <i class="fa-solid fa-fire"></i> x2</span>| Resistance
+                <span class="retreat">Retreat: <i class="fa-solid fa-star energy-icon1"></i><i class="fa-solid fa-star energy-icon1"></i></span>
+            </div>
+
+            <hr class="separator" style="border: none;border-top: 2px solid #c0c0c0;width: 100%;margin: 10px auto">
+
+            <div class="card-bottom">
+                <div>
+                    <div class="cardinfo">
+                        <span>Illus.kantaro</span>
+                        <span class="num">066/182</span>
+                    </div>
+
+                    <p class="text">
+                        Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail.
+                    </p>
+                </div>
+            </div>
+
         </div>
 
-        <hr style="border: none;border: 2px solid #cbcbcb;width: 100%">
-
-        <div class="footer">
-            <span>Weakness: <i class="fa-solid fa-spa"></i> x2 | Resistance</span>
-            <span class="retreat">Retreat: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
-        </div>
-
-        <hr style="border: none;border: 2px solid #cbcbcb;width: 100%">
-
+        <div class="copywright">"copywright">&copy; 2025 Pokemon Cards</div>
     </div>
 </body>
 </html>

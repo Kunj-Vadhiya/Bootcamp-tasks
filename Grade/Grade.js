@@ -43,5 +43,4 @@ function clearForm()
     document.getElementById('score').value = '';
 
     data = [];
-    console.clear();
 }
